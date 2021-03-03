@@ -12,7 +12,7 @@ for (let i = 1; i <= 12; i++){
   trElement.appendChild(tdElement);
   tblElement.appendChild(trElement);
   if (i % 4 === 0) { 
-  tdElement.classList = "bgBlue";  
+  tdElement.style.backgroundColor = "lightblue";  
   }
 
   trElement.appendChild(tdElement);

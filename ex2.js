@@ -4,6 +4,10 @@
 console.log("Bharti's Output from Homework 6 Example 2");
 
 const displayText400 = () => {
-  const lvl400Elements = Array.from(document.getElementsByClassName("400level"));
+  const showElements = document.getElementsByClassName("400level");
+  for (const showText of showElements) {
+      console.log(showText.textContent);
+  }   
 }
+
 displayText400();
